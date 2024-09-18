@@ -1,0 +1,86 @@
+body{
+    background-color: #E9EFEC;
+}
+
+
+.navbar{
+    background-color: #16a085 !important;
+}
+.navbar .nav-link{
+    color: white !important;
+    font-size: 17px !important;
+}
+
+.button-37 {
+    background-color: #16a085 ;
+    border: 1px solid #16a085;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+    outline: 0;
+    padding: 10px 25px;
+    text-align: center;
+    transform: translateY(0);
+    transition: transform 150ms, box-shadow 150ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 20%;
+    height: 20%;
+  }
+  
+  .button-37:hover {
+    box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+    transform: translateY(-2px);
+  }
+
+  .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+  }
+
+  .welcomeP{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 45px;
+  }
+  
+  .welcomeP p{
+    font-weight: 600;
+    font-size: larger;
+  }
+
+  .button-37 a{
+    text-decoration: none;
+    color: white;
+  }
+  @media (min-width: 768px) {
+    .button-37 {
+      padding: 10px 30px;
+    }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .button-37 {
+        width: 40%;
+      }
+      .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 90px;
+        gap: 10px;
+      }
+  }
